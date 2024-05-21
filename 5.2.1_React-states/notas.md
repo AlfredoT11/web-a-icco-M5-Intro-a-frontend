@@ -14,3 +14,5 @@
     - Los componentes pueden recibir props (properties). Estos valores nos permiten modificar la visualización de información de un componente.
     - Los props son muy similares en sintaxis a las propiedades de HTML. Necesitamos acceder a ellos dentro de nuestro componente para poder visualizarlos.
     - Los props NO pueden ser modificados. Únicamente son valores de lectura.
+    - Los states SÍ pueden ser modificados, me dicen el estado de un componente.
+5. En React existen hooks que son funciones que permiten manipular o acceder a diferentes aspecots de la biblioteca.
