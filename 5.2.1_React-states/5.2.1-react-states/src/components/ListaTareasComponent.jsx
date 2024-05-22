@@ -14,11 +14,14 @@ const ListaTareasComponent = () => {
     }
 
     const eliminarTarea = (indiceTarea) => {
-        // Necesito generar un nuevo arreglo que será el valor de mi estado listaTareas. Este nuevo arreglo no debe contener el elemento 
+        // Necesito generar un nuevo arreglo que será el valor de mi estado listaTareas. 
+        // Este nuevo arreglo no debe contener el elemento 
         // con el índice indiceTarea.
-        const nuevoArreglo = null;
+        //const nuevoArreglo = null;
+        //setListaTareas(nuevoArreglo);
+        const nuevoArreglo = listaTareas.filter((_, index) => index !== indiceTarea);
         setListaTareas(nuevoArreglo);
-        alert(`Eliminando tarea ${indiceTarea}`);
+        //alert(`Eliminando tarea ${indiceTarea}`);
     }
 
     return (
