@@ -1,10 +1,14 @@
+import { Link } from 'react-router-dom'
+
 const PokemonCardComponent = (props) => {
     return (
-        <div className="col p-2">          
+        <div className="col p-2">  
             <div className="card" style={{ width: '18rem' }}>
                 <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${props.idPokemon}.png`} className="card-img-top" alt="..." />
                 <div className="card-body">
+                <Link to='/pokemonDetail'>
                     <h5 className="card-title">{props.nombre}</h5>
+                </Link>
                 </div>
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item">Ataque: 5</li>
