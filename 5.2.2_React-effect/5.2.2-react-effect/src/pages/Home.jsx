@@ -23,11 +23,6 @@ const Home = () => {
     return (
       <>
         <div className="container">
-          <div className="row">
-            <h1>Pokedex</h1>
-            <button onClick={(e) => {setCount(count + 1)}}>Presióname</button>
-            <p><Link to='/about'>About us</Link></p>
-          </div>
           <div className="row">{
             listaPokemones.map((pokemon, index) => {
               const idPokemon = pokemon.url.split('/')[6];

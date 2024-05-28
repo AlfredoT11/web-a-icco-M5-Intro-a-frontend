@@ -6,7 +6,7 @@ const PokemonCardComponent = (props) => {
             <div className="card" style={{ width: '18rem' }}>
                 <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${props.idPokemon}.png`} className="card-img-top" alt="..." />
                 <div className="card-body">
-                <Link to='/pokemonDetail'>
+                <Link to={`/pokemonDetail/${props.idPokemon}/${props.nombre}`}>
                     <h5 className="card-title">{props.nombre}</h5>
                 </Link>
                 </div>
