@@ -1,4 +1,8 @@
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
+
+TypeScript
+
 
 const PokemonCardComponent = (props) => {
     return (
@@ -18,6 +22,11 @@ const PokemonCardComponent = (props) => {
             </div>
         </div>
         )
+}
+
+PokemonCardComponent.propTypes = {
+    idPokemon: PropTypes.number,
+    nombre: PropTypes.string
 }
 
 export default PokemonCardComponent;

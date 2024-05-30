@@ -7,4 +7,4 @@
 5. Necesistamos crear una carpeta llamada 'routes' en donde crearemos un index de rutas. 
 6. Una ruta es una especificación de una página, lo que significa que tiene un path y una página-componente.
 7. También vamos a crear una carpeta llamada 'pages' donde vamos a guardar todos los componentes que servirán como páginas (o como vistas completas de nuestra aplicación).
-8. Nota importante, en el RouterIndex, cada elemento <Route> tiene 2 props; uno llamado 'path' y otro llamado 'element'. Para el valor de element se requiere seguir la siguiente nomenclatura: {<NombreComponente />}, de esta manera estamos creando una instanccia del componente y no solamente importanto una función.
+8. Nota importante, en el RouterIndex, cada elemento <Route> tiene 2 props; uno llamado 'path' y otro llamado 'element'. Para el valor de element se requiere seguir la siguiente nomenclatura: {<NombreComponente />}, de esta manera estamos creando una instanccia del componente y no solamente importamos una función.
