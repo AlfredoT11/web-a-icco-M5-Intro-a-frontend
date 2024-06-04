@@ -7,7 +7,7 @@ const MainPage = () => {
     const [isRequestDone, setIsRequestDone] = useState(false);
 
     useEffect(() => {
-        const request = fetch('https://api.themoviedb.org/3/discover/movie?api_key=f64c8d4263de80c245540bce115e9542')
+        const request = fetch('https://api.themoviedb.org/3/discover/movie?api_key=<api_key>')
         .then((response) => response.json())
         .then(json => {
             console.log(json);
